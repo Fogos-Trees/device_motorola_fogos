@@ -5,5 +5,6 @@ git clone https://github.com/Fogos-Trees/kernel_motorola_sm6375.git kernel/motor
 
 rm -rf hardware/motorola
 git clone https://github.com/LineageOS/android_hardware_motorola.git -b lineage-21 hardware/motorola
+git clone https://github.com/LineageOS/android_system_qcom.git system/qcom
 
 git clone https://github.com/Drpto/packages_apps_prebuilt-camera.git packages/apps/prebuilt
