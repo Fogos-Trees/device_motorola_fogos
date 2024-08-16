@@ -5,5 +5,6 @@ git clone https://github.com/LineageOS/android_kernel_qcom_sm8350.git -b lineage
 
 rm -rf hardware/motorola
 git clone https://github.com/LineageOS/android_hardware_motorola.git -b lineage-21 hardware/motorola
+git clone https://github.com/LineageOS/android_system_qcom.git system/qcom
 
 git clone https://github.com/Drpto/packages_apps_prebuilt-camera.git packages/apps/prebuilt
