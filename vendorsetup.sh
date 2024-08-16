@@ -7,4 +7,7 @@ rm -rf hardware/motorola
 git clone https://github.com/LineageOS/android_hardware_motorola.git -b lineage-21 hardware/motorola
 git clone https://github.com/LineageOS/android_system_qcom.git system/qcom
 
+rm -rf prebuilts/clang/host/linux-x86/clang-r487747c
+git clone https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c.git -b 14.0  prebuilts/clang/host/linux-x86/clang-r487747c
+
 git clone https://github.com/Drpto/packages_apps_prebuilt-camera.git packages/apps/prebuilt
