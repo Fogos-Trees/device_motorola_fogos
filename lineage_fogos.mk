@@ -14,6 +14,18 @@ $(call inherit-product, device/motorola/fogos/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+#EvolutionX prop
+EVO_BUILD_TYPE := Unofficial
+TARGET_BUILD_APERTURE_CAMERA := false
+
+# Device props
+TARGET_SUPPORTS_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Charging Animation
+USE_PIXEL_CHARGER := true
+
 PRODUCT_NAME := lineage_fogos
 PRODUCT_DEVICE := fogos
 PRODUCT_MANUFACTURER := motorola
